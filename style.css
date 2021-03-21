@@ -1,0 +1,255 @@
+/* 
+ * Slider CSS
+*/
+
+/* Required CSS Rules */
+.slider .carousel-item {
+    width: auto;
+}
+.slider .carousel-item.active {
+    display: inline-block;
+    /* This specific amount of margin isn't required, but some is. */
+    margin-left: 2.6%;
+    margin-right: 2.6%;
+} 
+/* End required CSS */
+
+/* Example page CSS */
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+p {
+    text-align: center;
+    margin: 25px;
+}
+.Slidersection {
+   margin-top:50px;
+   
+}
+
+.slider .carousel-inner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.slider .carousel-item {
+    margin-bottom: 50px;
+}
+.slider .carousel-item.active:hover { 
+    cursor: move; 
+}
+.block { 
+    cursor: move; 
+}
+.slider .carousel-item.active.focused {
+    color: black;
+    font-weight: bold;
+}
+.slider .carousel-item span {
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.slider .carousel-control-next:hover,
+.slider .carousel-control-prev:hover,
+.slider .carousel-control-next:focus,
+.slider .carousel-control-prev:focus,
+.slider .carousel-control-next,
+.slider .carousel-control-prev {
+    filter: alpha(opacity=100);
+    opacity: .5;
+    background-image: none !important;
+    color: black;
+    top: 36%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.slider .carousel-indicators {
+    bottom: -30px;
+    z-index: 3 !important;
+}
+.slider .carousel-indicators li {
+    background-color: white;
+}
+.slider .carousel-indicators li.active {
+    background-color: black !important;
+}
+.colored-block {
+    width: 50px;
+    height: 50px;
+}
+.block{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+   /* padding: 10px;
+    box-shadow: 2px 4px 4px 4px rgba(79, 79, 243, 0.493);*/
+}
+.Zerro{
+    width: 30px;
+    height: 30px;
+    background-color: #dff0fe;
+    border-radius: 10px;
+    margin:6px;
+}
+
+.block2{
+    width: 30px;
+    height: 30px;
+    background-color: #dff0fe;
+    border-radius: 10px;
+    margin:6px;
+    display: none;
+    
+}
+.block3{
+    width: 30px;
+    height: 30px;
+    background-color: #dff0fe;
+    border-radius: 50%;
+    margin:6px;
+    display: none;
+}
+.block4{
+    width: 100px;
+    height: 40px;
+    background-color: #dff0fe;
+    border-radius: 10%;
+    margin:6px;
+    display: none;
+    text-align: center;
+  
+}
+.arrow{
+    width: 70px;
+    height: 50px;
+    display: none;
+   
+}
+.arrow2{
+    width: 70px;
+    margin-left: 10% ;
+    height: 40px;
+}
+.markit{
+    /*box-shadow: 2px 2px 2px 2px rgba(233, 112, 132, 0.493);*/
+    border-radius: 50%;
+    background-color: #09126d;
+    box-shadow: 2px 2px 2px 2px #007bff54;
+    color: white;
+}
+.divdrop,#div1{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px 4px rgba(255, 255, 255, 0.623);
+    margin:30px;
+    padding: 0px;
+
+}
+.answer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn-danger {
+border-radius: 50%;
+height: 110px;
+width: 110px;
+box-shadow:  2px 4px 4px 4px rgba(233, 74, 108, 0.493);
+}
+.btnHint{
+    width: 80px;
+    margin-top: 20px;
+}
+.short{
+    width:300px;
+    display: block;
+}
+.long{
+    width: 600px;
+    display: block;
+}
+
+.Quation {
+    position: relative;
+    text-align: center;
+    color: rgb(3, 7, 56);
+}
+.text-color{
+    color: rgb(3, 7, 56);
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ /* #score{
+      background-color: #29a4ed;
+      border-radius: 50%;
+      margin-left: 10px;
+      width: 64px;
+      height: 64px;
+  }*/
+  body{
+    background-image: url("images/micro.png");
+    /* Set a specific height */
+    min-height: 550px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+  /*For Vedio BACKGROUND*/
+  /* .fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+  }
+  
+  .fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+      @media (min-aspect-ratio: 16/9) {
+      .fullscreen-bg__video {
+        height: 300%;
+        top: -100%;
+      }
+    }
+    
+    @media (max-aspect-ratio: 16/9) {
+      .fullscreen-bg__video {
+        width: 300%;
+        left: -100%;
+      }
+    }
+    @media only screen and (max-width: 767px) {
+      
+     
+      .fullscreen-bg {
+          background: url('images/background.PNG') center center / cover no-repeat;
+        }
+      
+        .fullscreen-bg__video {
+          display: none;
+      }
+    } */
