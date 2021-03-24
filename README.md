@@ -60,9 +60,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
  https://micro-game.000webhostapp.com
 
 
- [![Header](https://github.com/Raghad-Khaled/MASA/blob/main/images/Masa.PNG)](https://micro-game.000webhostapp.com)
+ [![Header](https://github.com/Raghad-Khaled/Puzzly-Game/blob/master/images/P1.png)](https://micro-game.000webhostapp.com)
 
- [![Header](https://github.com/Raghad-Khaled/MASA/blob/main/images/Masa.PNG)](https://micro-game.000webhostapp.com)
+ [![Header](https://github.com/Raghad-Khaled/Puzzly-Game/blob/master/images/P2.png)](https://micro-game.000webhostapp.com)
 
 
 
